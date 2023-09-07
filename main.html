@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EMPTY ROOMS</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+            </thead>
+            <tbody id="timeTableBody">
+                <!-- JavaScript will populate this area with rows -->
+            </tbody>
+        </table>
+
+        <!-- Adding form with dropdowns below the table -->
+        <form id="optionsForm">
+            <div class="form-group">
+                <label for="From">From:-</label>
+                <select id="from">
+                    <option value="8">8 AM</option>
+                    <option value="9">9 AM</option>
+                    <option value="10">10 AM</option>
+                    <option value="11">11 AM</option>
+                    <option value="12">12 PM</option>
+                    <option value="13">1 PM</option>
+                    <option value="14">2 PM</option>
+                    <option value="15">3 PM</option>
+                    <option value="16">4 PM</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="upto">Upto:-</label>
+                <select id="upto">
+                    <option value="9">9 AM</option>
+                    <option value="10">10 AM</option>
+                    <option value="11">11 AM</option>
+                    <option value="12">12 PM</option>
+                    <option value="13">1 PM</option>
+                    <option value="14">2 PM</option>
+                    <option value="15">3 PM</option>
+                    <option value="16">4 PM</option>
+                    <option value="17">5 PM</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="day">DAY :-</label>
+                <select id="floor">
+                    <option value="monday">monday</option>
+                    <option value="tuesday">tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="floor_no">Floor:-</label>
+                <select id="floor_no">
+                    <option value="first_floor">1st Floor</option>
+                    <option value="second_floor">2nd Floor</option>
+                    <option value="third_floor">3rd Floor</option>
+                    
+                    <option value="fifth_floor">5th Floor</option>
+                    <option value="sixth_floor">6th Floor</option>
+                </select>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

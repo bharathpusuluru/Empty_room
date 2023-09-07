@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}                       
